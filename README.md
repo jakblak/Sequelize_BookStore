@@ -1,10 +1,11 @@
-# Starter Code for Angular App with Sequelize
+## Starter Code
 
 * Includes: Express server + routing
 * Angular app with mock data
 
-## type `yarn` or `npm i`
-## run `npm start `
+### check your dependencies `ng update`
+### type `yarn` or `npm i`
+### run `npm start `
 * starts server and loads app in browser
 
 ## or run `node server.js` in one terminal and `ng s -o` in another 
