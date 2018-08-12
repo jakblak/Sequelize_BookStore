@@ -1,0 +1,38 @@
+<div fxLayout="row"
+     fxLayoutAlign="space-around start">
+    <div fxFlex="90%">
+      <mat-list>
+        <h4 mat-subheader>Users</h4>
+        <mat-list-item>
+          <mat-icon mat-list-icon>account_circle</mat-icon>
+          <h4 mat-line>user name</h4>
+          <a mat-line
+            routerLink="/users/edit-user"
+            class="top-spacer">edit</a>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon mat-list-icon>account_circle</mat-icon>
+          <h4 mat-line>user name</h4>
+          <a mat-line
+            routerLink="/users/edit-user"
+            class="top-spacer">edit</a>
+        </mat-list-item>
+      </mat-list>
+  </div>
+</div>
+
+<!-- <div fxLayout="row"
+     fxLayoutAlign="space-around start">
+    <div fxFlex="90%">
+      <mat-list>
+        <h2 mat-subheader>Users</h2>
+        <mat-list-item *ngFor="let user of users">
+          <mat-icon mat-list-icon>account_circle</mat-icon>
+          <h4 mat-line>{{user.name}}</h4>
+          <a mat-line
+                  [routerLink]="['/users', user.id]"
+                  class="top-spacer">edit</a>
+        </mat-list-item>
+      </mat-list>
+    </div>
+  </div> -->

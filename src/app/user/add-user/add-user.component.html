@@ -1,0 +1,29 @@
+<div fxLayout="row"
+     fxLayoutAlign="space-around start"
+     class="container-top">
+  <div fxFlex="60%">
+    <form #addUserForm="ngForm" (ngSubmit)="saveUser(addUserForm.value)">
+    <mat-card>
+        <mat-card-header>Add User</mat-card-header>
+      <mat-card-content fxLayout="column" fxLayoutAlign="center center">
+          <!--name-->
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput
+                   placeholder="Name"
+                   name="name"
+                   ngModel>
+            <mat-icon matSuffix>person</mat-icon>
+          </mat-form-field>
+          <mat-card-actions fxLayout="column">
+            <button mat-raised-button
+                    color="primary"
+                    type="submit">
+              Submit
+            </button>
+        </mat-card-actions>
+     </mat-card-content>
+    </mat-card>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "year": 1851
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949
+  },
+  {
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "year": 2001
+  },
+  {
+    "title": "Memoirs of a Geisha",
+    "author": "Arthur Golden",
+    "year": 1997
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "year": 1988
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925
+  },
+  {
+    "title": "Atlas Shrugged",
+    "author": "Ayn Rand",
+    "year": 1999
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "year": 2003
+  },
+  {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "year": 1954
+  },
+  {
+    "title": "The Prince of Tides",
+    "author": "Pat Conroy",
+    "year": 1986
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932
+  }
+]
