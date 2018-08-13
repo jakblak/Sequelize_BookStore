@@ -1,45 +1,5 @@
-<!-- Card w/ Name, Dropdown for favorite, List w/ book names -->
-<div fxLayout="column"
-     fxLayoutAlign="space-around start">
-  <div fxLayout="row">
-   <div fxFlex="50%" fxFlexOffset="30%">
-    <h2>User</h2>
-
-    <!-- Add to reading -->
-    <mat-form-field>
-      <mat-select placeholder="Favorite food">
-        <mat-option *ngFor="let food of foods" [value]="food.value">
-            {{food.viewValue}}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
-
-    <!-- Add favorite -->
-    <mat-form-field>
-      <mat-select placeholder="Favorite food">
-        <mat-option *ngFor="let food of foods" [value]="food.value">
-            {{food.viewValue}}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
-
-    <mat-list>
-      <h4 mat-subheader>Reading List</h4>
-    <mat-list-item>
-      <mat-icon mat-list-icon>book</mat-icon>
-      <h4 mat-line>Title</h4>
-      <p mat-line class="top-spacer">Author: </p>
-      <p mat-line class="top-spacer">Year: </p>
-     </mat-list-item>
-    </mat-list>
-
-    </div>
-  </div>
-</div>
-
-
 <!-- Card w/ Name, Dropdown for favorite, Show reading list -->
-<!-- <div fxLayout="column"
+<div fxLayout="column"
      fxLayoutAlign="space-around start">
   <div fxLayout="row">
    <div fxFlex="50%" fxFlexOffset="30%">
@@ -101,4 +61,4 @@
      </mat-list-item>
     </mat-list>
   </div>
-</div> -->
+</div>

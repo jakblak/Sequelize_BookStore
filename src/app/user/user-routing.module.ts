@@ -13,8 +13,8 @@ const routes: Routes = [{
   pathMatch: 'full',
   component: AddUserComponent
 }, {
-  path: 'edit-user',
-  // path: ':id',
+  // path: 'edit-user',
+  path: ':id',
   pathMatch: 'full',
   component: UserEditComponent
 }];

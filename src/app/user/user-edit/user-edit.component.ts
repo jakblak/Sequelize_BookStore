@@ -11,12 +11,6 @@ import { Book } from '../../shared/interfaces/book';
   styleUrls: ['./user-edit.component.css']
 })
 export class UserEditComponent implements OnInit {
-  foods: any = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
-  ];
-
   selectedBook: any;
   selectedFav: any;
   user: User;
@@ -30,13 +24,13 @@ export class UserEditComponent implements OnInit {
               private route: ActivatedRoute) { }
 
   ngOnInit() {
-    // const param = +this.route.snapshot.paramMap.get('id');
-    // if (param) {
-    //   console.log(param);
-    //   const id = param;
-    //   this.getUser(id);
-    // }
-    // this.getBooks();
+    const param = +this.route.snapshot.paramMap.get('id');
+    if (param) {
+      console.log(param);
+      const id = param;
+      this.getUser(id);
+    }
+    this.getBooks();
   }
 
   getUser(id: number) {
