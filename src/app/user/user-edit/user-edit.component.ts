@@ -22,7 +22,7 @@ export class UserEditComponent implements OnInit {
   user: User;
   readingList: {};
   books: Book[];
-  favorite: {};
+  favorite: any;
 
   constructor(private userService: UserService,
               private bookService: BookService,
