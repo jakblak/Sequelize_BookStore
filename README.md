@@ -1,7 +1,7 @@
-## Starter Code
+## Finished Code
 
-* Includes: Express server + routing
-* Angular app with mock data
+### Includes: Express server + routing
+### Make sure to first seed data
 
 ### check your dependencies `ng update`
 ### type `yarn` or `npm i`
